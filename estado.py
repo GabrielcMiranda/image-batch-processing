@@ -34,11 +34,12 @@ def somar_sem_protecao(hist_local, n_pixels: int) -> None:
 
 def mesclar(hist_local, n_pixels: int) -> None:
     t0 = time.perf_counter_ns()
-    with _trava:
+    with _trava:                                           # ===== INÍCIO DA SEÇÃO CRÍTICA =====
         t1 = time.perf_counter_ns()
         somar_sem_protecao(hist_local, n_pixels)
         _cont[ESPERA_NS] += t1 - t0
         _cont[DENTRO_NS] += time.perf_counter_ns() - t1
+    #                                                      ===== FIM DA SEÇÃO CRÍTICA =====
 
 
 def trava_do_estado():
