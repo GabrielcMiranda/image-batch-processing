@@ -1,0 +1,23 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset (COCO 2017 val, ~1 GB) e downloads parciais
+dados/
+*.zip
+*.parcial
+
+# Saídas geradas pelas execuções
+saida_*/
+site/
+
+# Editor / sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
