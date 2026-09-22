@@ -1,24 +1,24 @@
 {
   "maquina": {
-    "cpu": "AMD Ryzen 5 5600X 6-Core Processor",
-    "nucleos_fisicos": "6",
-    "nucleos_logicos": "12",
-    "ram_gb": "23.9",
-    "sistema": "Windows-10-10.0.19045-SP0",
-    "python": "3.14.6",
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "nucleos_fisicos": "4",
+    "nucleos_logicos": "8",
+    "ram_gb": "23.7",
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.15",
     "pillow": "12.3.0",
-    "numpy": "2.4.6",
-    "maquina": "DESKTOP-AQOB1B7"
+    "numpy": "2.5.3",
+    "maquina": "3022GABRIELMIRANDA"
   },
-  "imagens": 5000,
-  "impressao_digital": "4b458bb014e978263dcf86ab9113989e3ef0ee13e4c9e73a8d67bdd65303ad12",
-  "f": 0.9993245874001888,
+  "imagens": 3334,
+  "impressao_digital": "ed067b987c6c422c58d6f3b25e5fff5b00f4e2caeab5a0f4f2e2e6fb5d139f03",
+  "f": 0.9994407055935419,
   "sequencial": {
-    "media": 257.82936352000104,
-    "desvio": 0.4670536931586501,
+    "media": 252.57483596000003,
+    "desvio": 25.485942850505346,
     "n": 5,
-    "min": 257.29297199999564,
-    "max": 258.56572009999945
+    "min": 236.09248300000036,
+    "max": 296.34279249999963
   },
   "configuracoes": [
     {
@@ -27,20 +27,20 @@
       "trava": "fina",
       "workers": 2,
       "tempo": {
-        "media": 133.519609339998,
-        "desvio": 0.8575654677279497,
+        "media": 155.92943749999978,
+        "desvio": 10.611371047169449,
         "n": 5,
-        "min": 132.09728729999915,
-        "max": 134.18791929999134
+        "min": 142.03973909999968,
+        "max": 167.47498349999933
       },
-      "speedup": 1.9310224527654007,
-      "eficiencia": 0.9655112263827004,
-      "amdahl": 1.9986500865489312,
-      "karp_flatt": 0.03572073806589726,
-      "espera_trava_s": 0.01352812,
-      "inicio_primeira_tarefa_s": 0.1942943199945148,
-      "cauda_s": 0.09475012000184506,
-      "ocupacao": 0.9990224992738256
+      "speedup": 1.619802136206644,
+      "eficiencia": 0.809901068103322,
+      "amdahl": 1.9988820364578397,
+      "karp_flatt": 0.23471870748592027,
+      "espera_trava_s": 0.02228486,
+      "inicio_primeira_tarefa_s": 0.42095032000015636,
+      "cauda_s": 0.14640444000033312,
+      "ocupacao": 0.9988361094815981
     },
     {
       "nome": "Processos, p = 4",
@@ -48,41 +48,20 @@
       "trava": "fina",
       "workers": 4,
       "tempo": {
-        "media": 74.16350275999575,
-        "desvio": 0.3265329932038464,
+        "media": 102.10011132000018,
+        "desvio": 10.675519282336786,
         "n": 5,
-        "min": 73.76816979999421,
-        "max": 74.5996526999952
+        "min": 95.23839440000029,
+        "max": 120.9454512000002
       },
-      "speedup": 3.4764992742370278,
-      "eficiencia": 0.8691248185592569,
-      "amdahl": 3.9919114381520253,
-      "karp_flatt": 0.050194240860092686,
-      "espera_trava_s": 0.01764686,
-      "inicio_primeira_tarefa_s": 0.21140837999992074,
-      "cauda_s": 0.21132359999755862,
-      "ocupacao": 0.9978103022348114
-    },
-    {
-      "nome": "Processos, p = 6",
-      "modo": "processos",
-      "trava": "fina",
-      "workers": 6,
-      "tempo": {
-        "media": 54.02440152000054,
-        "desvio": 0.1938159812461136,
-        "n": 5,
-        "min": 53.80117639999662,
-        "max": 54.23473080000258
-      },
-      "speedup": 4.772461263167335,
-      "eficiencia": 0.7954102105278892,
-      "amdahl": 5.979805819027024,
-      "karp_flatt": 0.05144258566566074,
-      "espera_trava_s": 0.01864982,
-      "inicio_primeira_tarefa_s": 0.22391333999985363,
-      "cauda_s": 0.2067583200027002,
-      "ocupacao": 0.9969804902369569
+      "speedup": 2.473795892037619,
+      "eficiencia": 0.6184489730094047,
+      "amdahl": 3.9932997094276192,
+      "karp_flatt": 0.2056494249552221,
+      "espera_trava_s": 0.02700686,
+      "inicio_primeira_tarefa_s": 0.5036894599999868,
+      "cauda_s": 0.36441755999985614,
+      "ocupacao": 0.9970198480230076
     },
     {
       "nome": "Processos, p = 8",
@@ -90,83 +69,62 @@
       "trava": "fina",
       "workers": 8,
       "tempo": {
-        "media": 46.930372339996396,
-        "desvio": 0.5752845285501126,
+        "media": 76.07499801999984,
+        "desvio": 2.8892532872456074,
         "n": 5,
-        "min": 46.335849600000074,
-        "max": 47.624818099997356
+        "min": 73.43514109999978,
+        "max": 79.5263928000004
       },
-      "speedup": 5.493869975121975,
-      "eficiencia": 0.6867337468902469,
-      "amdahl": 7.962354876346433,
-      "karp_flatt": 0.06516691814764441,
-      "espera_trava_s": 0.020857,
-      "inicio_primeira_tarefa_s": 0.25441675999900326,
-      "cauda_s": 0.25528985999990256,
-      "ocupacao": 0.9964404177464041
+      "speedup": 3.3200767996549803,
+      "eficiencia": 0.41500959995687253,
+      "amdahl": 7.96880165665083,
+      "karp_flatt": 0.2013689735314623,
+      "espera_trava_s": 0.0454766,
+      "inicio_primeira_tarefa_s": 0.6429954600000201,
+      "cauda_s": 0.5150383399999555,
+      "ocupacao": 0.9944128568874259
     },
     {
-      "nome": "Processos, p = 12",
-      "modo": "processos",
-      "trava": "fina",
-      "workers": 12,
-      "tempo": {
-        "media": 37.31524586000014,
-        "desvio": 0.20375430926239138,
-        "n": 5,
-        "min": 37.05897080000432,
-        "max": 37.506584500006284
-      },
-      "speedup": 6.909491216735616,
-      "eficiencia": 0.575790934727968,
-      "amdahl": 11.911503028490552,
-      "karp_flatt": 0.06697649815812991,
-      "espera_trava_s": 0.028196719999999998,
-      "inicio_primeira_tarefa_s": 0.33577852000016717,
-      "cauda_s": 0.2906373799982248,
-      "ocupacao": 0.9953853401256678
-    },
-    {
-      "nome": "Threads, p = 12",
+      "nome": "Threads, p = 8",
       "modo": "threads",
       "trava": "fina",
-      "workers": 12,
+      "workers": 8,
       "tempo": {
-        "media": 182.68096773332704,
-        "desvio": 0.13820936062385342,
+        "media": 189.93607316666657,
+        "desvio": 1.227823298001179,
         "n": 3,
-        "min": 182.5651388999977,
-        "max": 182.8339588999952
+        "min": 188.9250274999995,
+        "max": 191.30234569999993
       },
-      "speedup": 1.4113641213920747,
-      "eficiencia": 0.11761367678267289,
-      "amdahl": 11.911503028490552,
-      "karp_flatt": 0.6820375033638962,
-      "espera_trava_s": 0.0749509,
-      "inicio_primeira_tarefa_s": 0.015513399999084262,
-      "cauda_s": 0.7450225666640714,
-      "ocupacao": 0.99878530087494
+      "speedup": 1.3297886586207808,
+      "eficiencia": 0.1662235823275976,
+      "amdahl": 7.96880165665083,
+      "karp_flatt": 0.7165705078813451,
+      "espera_trava_s": 0.014241633333333331,
+      "inicio_primeira_tarefa_s": 0.034111700000115285,
+      "cauda_s": 0.6784017333338852,
+      "ocupacao": 0.9984772683043799
     },
     {
-      "nome": "Trava grossa, p = 12",
+      "nome": "Trava grossa, p = 8",
       "modo": "processos",
       "trava": "grossa",
-      "workers": 12,
+      "workers": 8,
       "tempo": {
-        "media": 264.80297663332993,
-        "desvio": 0.9005808349828065,
+        "media": 239.74784336666653,
+        "desvio": 4.277976855727107,
         "n": 3,
-        "min": 263.96242039999925,
-        "max": 265.7534855999984
+        "min": 234.93435649999992,
+        "max": 243.11575489999996
       },
-      "speedup": 0.9736648990808544,
-      "eficiencia": 0.0811387415900712,
-      "amdahl": 11.911503028490552,
-      "karp_flatt": 1.0295062511032542,
-      "espera_trava_s": 2899.084251466667,
-      "inicio_primeira_tarefa_s": 0.33057299999927636,
-      "cauda_s": 0.8985518333356595,
-      "ocupacao": 0.9977979419610398
+      "speedup": 1.0535020145049485,
+      "eficiencia": 0.13168775181311856,
+      "amdahl": 7.96880165665083,
+      "karp_flatt": 0.9419600925367384,
+      "espera_trava_s": 1666.5650304333333,
+      "inicio_primeira_tarefa_s": 0.6764382999996693,
+      "cauda_s": 0.8233141333336486,
+      "ocupacao": 0.9972904454650998
     }
   ]
 }
