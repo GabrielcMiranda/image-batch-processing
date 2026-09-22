@@ -13,7 +13,7 @@ param(
 )
 
 # ===== AJUSTE AQUI depois da calibracao (Pessoa 1) e da bateria (Pessoa 4) =====
-$N = 5000                       # --limite calibrado: a sequencial deve levar ~4 min
+$N = 3334                       # --limite calibrado: a sequencial deve levar ~4 min
 $P = 8                          # processos da demonstracao (o melhor resultado da bateria)
 $Entrada = "dados\val2017"
 # ===============================================================================
